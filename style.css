@@ -11,7 +11,7 @@ body{
 }
 /* banner section style starts here */
 .banner-container{
-   width: 1320px; 
+   max-width: 1320px; 
    border: 2px solid black;
    min-height: 600px;
    margin: 0 auto;
@@ -44,4 +44,13 @@ body{
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    text-align: center;
+}
+
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 90px;
 }
