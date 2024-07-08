@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: "Merriweather", serif;
+    /* font-family: "Merriweather", serif; */
 }
 /* banner section style starts here */
 .banner-container{
@@ -38,6 +38,7 @@ body{
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
+    font-family: "Merriweather", serif;
 }
 .banner-content h1{
     color: rgb(255, 255, 255);
@@ -45,6 +46,7 @@ body{
     font-weight: 900;
     line-height: 95px;
     text-align: center;
+    font-family: "Merriweather", serif;
 }
 
 .second-section-container{
@@ -62,7 +64,7 @@ body{
 
 .second-section-content h1{
     color: rgb(255, 0, 0);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
@@ -71,7 +73,7 @@ body{
 }
 .second-section-content p{
     color: rgb(255, 0, 0);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 107px;
@@ -79,7 +81,7 @@ body{
 }
 .second-section-content h3{
     color: rgb(7, 2, 17);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 700;
 }
@@ -91,3 +93,144 @@ body{
     width: 100%;
     height: 100%;
 }
+
+/* midnight section start here */
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('../new-year-offer-resources/images/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-top: 80px;
+ }
+ .left-side-content{
+    width: 50%;
+    width: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ }
+ .left-side-content h1{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900; 
+ }
+ .left-side-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+ }
+ #midnight-button{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 400px;
+ }
+ .right-side-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .right-side-content img{
+    height: 100%;
+    width: 100%;
+    width: 349.16px;
+    height: 464.65px;
+ }
+ .event-container{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background-color: rgba(0, 0, 0, 0.02);
+    background-blend-mode: overlay;
+ }
+ .event-location-time-container span{
+     color: red;
+ }
+ .event-location-time-container p{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.event-location-time-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    align-items: center;
+}
+.btn-container{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 32px;
+    border: 8px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    margin-top: 30px;
+}
+.offers-and-sales{
+    width: 1320px;
+    height: 463px;
+    border: 2px solid red;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+/* left side starts here */
+.left-side{
+    width: 33%;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+.left-side h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-right: 170px;
+}
+.left-side h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-right: 50px;
+}
+.left-side p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* leftside ends here */
+/* middleside start here */
+    
+/* middleside ends here */
