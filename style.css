@@ -191,16 +191,16 @@ body{
     margin-top: 30px;
 }
 .offers-and-sales{
-    width: 1320px;
+    max-width: 1320px;
     height: 463px;
     border: 2px solid red;
     display: flex;
     margin: 0 auto;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 /* left side starts here */
-.left-side{
-    width: 33%;
+.left-side{ 
     width: 440px;
     display: flex;
     flex-direction: column;
@@ -232,5 +232,108 @@ body{
 }
 /* leftside ends here */
 /* middleside start here */
-    
-/* middleside ends here */
+.middle{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 15px solid red;
+    border-radius: 50%;
+    margin-top: 40px;
+} 
+.middle img{
+    width: 100%;
+    margin: auto;
+}  
+/* rightside start here */
+.right-side{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.right-side h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 280px;
+}
+.right-side p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.right-side img{
+    margin-top: 50px;
+    margin-right: 250px;
+}
+/* rightside ends here */
+
+/* holiday styles */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-text-container h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday-text-container h1 span{
+    color: red;
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.solid-color{
+    width: 1320px;
+    height:229px;
+    background: red;
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box{
+    width:674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+}
+.discount{
+    position: absolute;
+    bottom: 50%;
+    left: 85%;
+}
